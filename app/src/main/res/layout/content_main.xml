@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="CSC 413 Proj 3"
         android:textAlignment="center"
         android:id="@+id/textView" />
 
@@ -47,11 +47,14 @@
         android:layout_alignParentEnd="true" />
 
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/drawSpace"
-        android:textAlignment="center"></RelativeLayout>
+        android:layout_marginTop="15dp"
+        android:layout_above="@+id/rectButton"
+        android:layout_alignRight="@+id/clearbutton"
+        android:layout_alignEnd="@+id/clearbutton"
+        android:id="@+id/drawSpace"></RelativeLayout>
+
 
 </RelativeLayout>
