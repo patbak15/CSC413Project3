@@ -1,0 +1,4 @@
+README: 
+
+This project implements the use of a Factory Design Pattern. The application simply has three buttons that output
+either a Rectangle or Circle to Android Canvas. Rectangle and Circle are both child classes of Shape which contain abstract methods. 
